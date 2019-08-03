@@ -4088,8 +4088,8 @@ def lineBot(op):
                     random.choice(Rfu).kickoutFromGroup(receiver,[sender])
                     random.choice(Rfu).sendText(msg.to,"ตรวจพบคำสั่งของบอทลบกลุ่ม  BotSelf จำเป็นต้องนำออกเพื่อความปลอดภัยของสมาชิก")	
                 if msg.text in fukgerMessage:
-                    random.choice(Rfu).kickoutFromGroup(receiver,[sender])
-                    random.choice(Rfu).sendText(msg.to,"ตรวจพบคำพูดหยาบคายไม่สุภาพ จำเป็นต้องนำออกเพื่อความสงบสุขของสมาชิก")                    									
+                    # random.choice(Rfu).kickoutFromGroup(receiver,[sender])
+                    random.choice(Rfu).sendText(msg.to,"ตรวจพบคำพูดหยาบคายไม่สุภาพ กรุณาใช้คำให้สุภาพด้วย!!")                    									
         if op.type == 17:
           if settings["Wc"] == True:
             if op.param2 in bot1:
