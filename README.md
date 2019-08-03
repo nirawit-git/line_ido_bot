@@ -1,5 +1,5 @@
 -------------------------------------------
-                setup V1
+                setup V1 for linux
 -------------------------------------------
 apt update
 
@@ -7,7 +7,7 @@ apt upgrade
 
 apt install git
 
-pkg install python3
+apt install python3
 
 pip3 install rsa
 
@@ -27,16 +27,16 @@ pip3 install googletrans
 
 pkg install nano
 
-git clone https://github.com/Emclub/botLineEm
+git clone https://github.com/nirawit-git/line_ido_bot
 
-Nano Tes.py    (Edit MID)
+Nano do.py    (Edit MID)
 
-cd botLineEm
+cd line_ido_bot
 
 PYThon3 do.py
 
 -------------------------------------------
-                setup V2
+                setup V2 for Termux
 -------------------------------------------
 
 แจกสคิปเชลบอทสอนทำด้วยบอททำอะไรได้บ้าง ออโต้บล็อค✔ ลบรัน✔ ตั้งเข้าออก✔ ป้องกันคนลบกลุ่ม✔ อื่นๆ
@@ -68,9 +68,9 @@ pip3 install autoli
 
 pip3 install youtube_dl
 
-git clone https://gitlab.com/nirawit/nm
+git clone https://github.com/nirawit-git/line_ido_bot
 
-cd nm
+cd line_ido_bot
 
 ls
 
